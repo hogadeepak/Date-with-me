@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Date With Me 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hearts"></div>
+  <div id="confetti"></div>
 
+  <main>
+    <section id="welcome" class="card active">
+      <div class="big-heart">♥</div>
+      <p class="small-title">I have a tiny question...</p>
+
+      <h1>Will you go on a<br><span>date with me?</span></h1>
+
+      <p id="message">
+        I promise good food, happy moments, and my best smile.
+      </p>
+
+      <div class="buttons">
+        <button id="yes">Yes, absolutely! ♥</button>
+        <button id="no">No</button>
+      </div>
+    </section>
+
+    <section id="calendar" class="card">
+      <button id="back" class="back">←</button>
+
+      <div class="big-heart small">♥</div>
+      <p class="small-title">Yay! Let's make it official</p>
+
+      <h2>Pick our <span>special day</span></h2>
+      <p>Choose the date that works best for you.</p>
+
+      <input type="date" id="date">
+
+      <button id="confirm" disabled>That's our date! ♥</button>
+      <p id="date-message"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
