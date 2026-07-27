@@ -66,7 +66,7 @@ let noCount = 0;
 noButton.addEventListener("click", () => {
   const replies = [
     "Are you sure? Ek baar Yes button ko bhi dekho 🌸",
-    "Imaginary flowers bhi lekar aaunga 🌷",
+    "kya pta tumhari soch mujhe lekar badal jaye!! 🌷",
     "Okay... lekin Yes button abhi bhi yahin hai 💛"
   ];
 
